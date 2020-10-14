@@ -43,4 +43,21 @@ def solution(n):
                     f=True
     return(f)
 
+# Shorter and 10ms faster solution
+
+def solution1(n):
+    if '0' in str(n).rstrip('0'):
+        return True
+    else:
+        return False
+
+# Solution as lambda
+
+solution2=lambda n: bool('0' in str(n).rstrip('0'))
+
+# Final solution
+
+solution3=lambda n:'0' in str(n).rstrip('0')
+
+
 

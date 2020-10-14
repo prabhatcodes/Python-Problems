@@ -9,5 +9,6 @@ def test_sol():
         else:
             incorrect=incorrect+1
             # print("Case=",i,"Expected=",cases[i], "Returned", solution(i))
-    print
     print("Correct percentage:", (correct/len(cases))*100)
+
+# Tester provided by DOM : https://repl.it/@DominicTarro/Challenge
