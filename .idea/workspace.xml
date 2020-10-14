@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe002e69-69e6-438e-8715-2cda7f4177c9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twtWeek3Oct2020.py" beforeDir="false" afterPath="$PROJECT_DIR$/twtWeek3Oct2020.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twtWeek1Oct2020.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twtWeek2Oct2020.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twtWeek3Oct2020.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twtweek3testcases" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,26 +18,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Leetcode/two-sum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/twtWeek3Oct2020.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="601">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="240">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/twtweek3testcases">
+        <entry file="file://$PROJECT_DIR$/TWT_Weekly_Challenges/twtWeek3Oct20files/twtweek3testcases">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="44">
+              <caret line="2" column="30022" selection-start-line="2" selection-start-column="30022" selection-end-line="2" selection-end-column="30022" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TWT_Weekly_Challenges/twtWeek3Oct20files/twtWeek3Oct2020.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TWT_Weekly_Challenges/twtWeek3Oct20files/SimpleTester.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -68,14 +79,16 @@
         <option value="$PROJECT_DIR$/Leetcode/Add-TwoNum.py" />
         <option value="$PROJECT_DIR$/twtweek3testcases" />
         <option value="$PROJECT_DIR$/twtWeek3Oct2020.py" />
+        <option value="$PROJECT_DIR$/TWT_Weekly_Challenges/twtWeek3Oct20files/twtweek3testcases" />
+        <option value="$PROJECT_DIR$/TWT_Weekly_Challenges/twtWeek3Oct20files/twtWeek3Oct2020.py" />
+        <option value="$PROJECT_DIR$/TWT_Weekly_Challenges/twtWeek3Oct20files/SimpleTester.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="979" />
-    <option name="height" value="1049" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1182" />
+    <option name="width" value="745" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -96,7 +109,13 @@
             <path>
               <item name="Python Problems" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python Problems" type="462c0819:PsiDirectoryNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="TWT_Weekly_Challenges" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python Problems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python Problems" type="462c0819:PsiDirectoryNode" />
+              <item name="TWT_Weekly_Challenges" type="462c0819:PsiDirectoryNode" />
+              <item name="twtWeek3Oct20files" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -180,10 +199,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="783" height="839" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24932976" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.33273703" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -203,17 +222,10 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Leetcode/two-sum.py">
+    <entry file="file://$PROJECT_DIR$/twtWeek3Oct2020.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode/Add-TwoNum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+        <state relative-caret-position="946">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
@@ -224,10 +236,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twtWeek3Oct2020.py">
+    <entry file="file://$PROJECT_DIR$/Leetcode/Add-TwoNum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="615">
+          <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/two-sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TWT_Weekly_Challenges/twtWeek3Oct20files/twtweek3testcases">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="30022" selection-start-line="2" selection-start-column="30022" selection-end-line="2" selection-end-column="30022" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TWT_Weekly_Challenges/twtWeek3Oct20files/twtWeek3Oct2020.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TWT_Weekly_Challenges/twtWeek3Oct20files/SimpleTester.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
         </state>
       </provider>
     </entry>
