@@ -31,3 +31,14 @@
 # Extra testcases in a dictionary
 # https://hastebin.com/uyekakular.yaml
 
+def Solution(n):
+    ns=str(n)
+    f=False
+    for i in range(len(ns)):
+        if ns[i]==0:
+            for j in range(i,len(ns)):
+                if ns[j] in [1,2,3,4,5,6,7,8,9]:
+                    f=True
+                    break
+    return(f)
+
