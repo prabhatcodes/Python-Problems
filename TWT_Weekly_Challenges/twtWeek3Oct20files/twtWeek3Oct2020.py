@@ -57,7 +57,7 @@ solution2=lambda n: bool('0' in str(n).rstrip('0'))
 
 # Final solution
 
-solution3=lambda n:'0' in str(n).rstrip('0')
+solution3=lambda n:'0'in str(n).strip('0')
 
 
 
