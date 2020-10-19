@@ -28,3 +28,14 @@ def solution(m,n):
 
 def sol(m,n):
     return max(m, n) + 2 * (min(m, n) - 1)
+
+# Wrong when tested... very wrong infact
+
+def solution(m,n):
+    return m+n+hcf(max(m,n),min(m,n))-2
+def hcf(a,b):
+    while b!=0:
+        r=a%b
+        a=b
+        b=r
+    return a
