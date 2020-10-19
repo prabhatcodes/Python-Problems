@@ -31,7 +31,7 @@ def lengthOfLongestSubstring(s):
             dic[s[i]] = i
             temp +=1
         else:
-            if(start>dic[s[i]]):
+            if start>dic[s[i]]:
                 temp +=1
                 dic[s[i]] = i
             else:
