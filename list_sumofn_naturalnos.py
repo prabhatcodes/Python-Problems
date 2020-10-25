@@ -55,4 +55,4 @@ for j in X:
             else:
                 con = summ(i)
     if flag == 0:
-        print("No")
+        print("No")x

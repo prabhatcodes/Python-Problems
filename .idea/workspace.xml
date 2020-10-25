@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe002e69-69e6-438e-8715-2cda7f4177c9" name="Default Changelist" comment="" />
+    <list default="true" id="fe002e69-69e6-438e-8715-2cda7f4177c9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TWT_Weekly_Challenges/twtWeek4Oct2020.py" beforeDir="false" afterPath="$PROJECT_DIR$/TWT_Weekly_Challenges/twtWeek4Oct2020.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list_sumofn_naturalnos.py" beforeDir="false" afterPath="$PROJECT_DIR$/list_sumofn_naturalnos.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +32,28 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python.rotate-array">
+  <component name="RunManager" selected="Python.254_Sums-of-digit-factorials">
+    <configuration name="254_Sums-of-digit-factorials" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python Problems" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project_Euler_HR" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project_Euler_HR/254_Sums-of-digit-factorials.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Add-TwoNum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python Problems" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,6 +119,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.254_Sums-of-digit-factorials" />
         <item itemvalue="Python.rotate-array" />
         <item itemvalue="Python.Add-TwoNum" />
         <item itemvalue="Python.two-sum" />
@@ -115,25 +141,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="447" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603618294563">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="447" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1603618294563" />
     <state x="538" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603389025109">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="538" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1603389025109" />
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1603174350360">
+    <state width="748" height="207" key="GridCell.Tab.0.bottom" timestamp="1603618750133">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603174350360" />
-    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1603174350359">
+    <state width="748" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603618750133" />
+    <state width="748" height="207" key="GridCell.Tab.0.center" timestamp="1603618750133">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603174350359" />
-    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1603174350359">
+    <state width="748" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603618750133" />
+    <state width="748" height="207" key="GridCell.Tab.0.left" timestamp="1603618750133">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603174350359" />
-    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1603174350359">
+    <state width="748" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603618750133" />
+    <state width="748" height="207" key="GridCell.Tab.0.right" timestamp="1603618750133">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603174350359" />
+    <state width="748" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603618750133" />
   </component>
 </project>
