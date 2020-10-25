@@ -39,3 +39,15 @@ def hcf(a,b):
         a=b
         b=r
     return a
+
+# Solution with nested lambda
+
+solution=lambda a,b:a+b+(g:=lambda a,b:g(b,a%b)if b else a)(a,b)-2
+
+
+# Shortest
+
+def solution(n,m):
+ a=n+m
+ while m:n,m=m,n%m
+ return a+n-2
