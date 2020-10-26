@@ -54,3 +54,19 @@ def sf(n):
         sum_of_fn+=i
     return sum_of_fn
 
+def g(m):
+    p = 1
+    cal_sf=sf(p)
+    while cal_sf != m:
+        p+=1
+        cal_sf = sf(p)
+
+def sg(k):
+    return (f(g(k)))
+
+q=input()
+for i in range(len(q)):
+    l=input()
+    n=int(l.spilt()[0])
+    m=int(l.spilt()[1])
+
