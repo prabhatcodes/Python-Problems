@@ -54,3 +54,41 @@
 # ​
 #   which is \text{dp}[i-1]dp[i−1]. To this, we also add the length of the valid substring just before the term "(,sub_s,)" , i.e. \text{dp}[i-\text{dp}[i-1]-2]dp[i−dp[i−1]−2].
 
+class Solution:
+    def longestValidParentheses(self, s: str) -> int:
+
+        # FIND THE POSTIONS OF THE INVALID OPEN AND CLOSED BRACKETS
+        opens = []
+        closes = []
+
+        # LOOP THROUGH THE STRING
+        for i in range(len(s)):
+
+            # AN OPEN BRACKET - IT COULD BE VALID OR NOT, BUT WE'RE GUARANTEED THAT ALL LEFTOVER BRACKETS IN OPENS WILL BE INVALID AFTER EXITING THE LOOP
+            if s[i] == '(':
+                opens.append(i)
+
+            # A VALID CLOSED BRACKET
+            elif opens:
+                opens.pop()
+
+            # AN INVALID CLOSED BRACKET
+            else:
+                closes.append(i)
+
+        # EDGE CASE : NO INVALID BRACKETS
+        if not opens and not closes:
+            return len(s)
+
+        # GATHER A SINGLE ARRAY OF OPENED AND CLOSED BRACKET (WRITE A O(N) MERGE HERE)
+        merged = sorted(opens + closes)
+
+        # GET THE MAXIMUM DIFF
+        return self.max_diff(merged, len(s))
+
+    def max_diff(self, merged, n):
+        merged = [-1] + merged + [n]
+        diff = 0
+        for i in range(1, len(merged)):
+            diff = max(diff, merged[i] - merged[i - 1] - 1)
+        return diff
