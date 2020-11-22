@@ -27,3 +27,25 @@
 # The structure is like below
 # Trap "1 unit" between first 1 and 2, "4 units" between
 # first 2 and 3 and "1 unit" between second last 1 and last 2
+
+def solution(h):
+    water = 0
+    leftmax = 0
+    rightmax = 0
+    l = 0
+    r = len(h) - 1
+    while l < r:
+        if h[l] < h[r]:
+            if h[l] >= leftmax:
+                leftmax = h[l]
+            else:
+                water = water + leftmax - h[l]
+            l += 1
+        else:
+            if h[r] >= rightmax:
+                rightmax = h[r]
+            else:
+                water = water + rightmax - h[r]
+            r -= 1
+    return water
+
