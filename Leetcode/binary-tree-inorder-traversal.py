@@ -36,6 +36,22 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution:
-    def inorderTraversal(self, root: TreeNode) -> List[int]:
 
+class Solution: # with recursion
+    def inorderTraversal(self, root: TreeNode) -> List[int]:
+        """
+        :type root: TreeNode
+        :rtype: List[int]
+        """
+
+        def helper(root):
+            if root:
+                helper(root.left)
+
+                result.append(root.val)
+
+                helper(root.right)
+
+        result = []
+        helper(root)
+        return result
