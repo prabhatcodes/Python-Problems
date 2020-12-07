@@ -40,3 +40,8 @@ class Solution:
                     current[w] = max(v + current[w - v], current[w])
 
         return total - 2 * current[-1]
+
+
+    # based on 0-1 knapsack
+    # The value of the final rock would be a summation of all values with +/- signs. As we are trying to minimize the size of the final rock, we need to find a partition of numbers in the array into two subsets, which have the least amount of differenc in their summations.
+    # We can reformulate this as a 0-1 Knapsack, i.e. collecting some rocks, where the weights of the rocks is maximized and their total weight does not exceed half of the total weight of the rocks.
