@@ -96,3 +96,17 @@ def main(input1, input2):
             count = 1
     return max_count
 
+# Problem 3: A guy donates money for n days. Each ith day he donates i^2 coins.
+# Return the total number of coins he donates after n days.
+
+# Input1: Number of days. Type: Integer.
+
+# Example: Input-> 4 Output-> 30
+
+# Easiest Question
+
+def main(n):
+    sum = 0
+    for i in range(1,n+1):
+        sum += i*i
+    return sum
