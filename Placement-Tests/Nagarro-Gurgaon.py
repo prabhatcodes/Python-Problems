@@ -31,16 +31,17 @@
 
 # Problem 1. Question: Cut m letters from the end of string then add it at the front of the string, then
 # cut n letters from the end of the modified string and add to the beginning.
-# Continue this process till the end of
+# Continue this process till you get back the original string and return total turns it took.
+
 # Given are a string and m and n.
 #
 # input 1: original string
 
 # input 2: m (less than length of string): cut m alphabets from end of string and then
-# add to begining of string.
+# add to beginning of string.
 
 # input 3: n (less than length of string) : cut n alphabets from end of string obtained
-# from above step and then add to begining of that string.
+# from above step and then add to beginning of that string.
 #
 # This process is continued, need to find out the number turns it takes to get back original string.
 
@@ -72,3 +73,26 @@ def main(input1, input2, input3):
             mod = temp + mod
             if mod == org:
                 return count
+
+# Problem 2: Given an array consisting of integers, return the longest strictly increasing substring.
+# Note: This problem had a wrong test case.
+
+# Input 1: Number of integers in array. Type: Integer.
+# Input 2: Array.
+
+# Example: Input-> 5, {1,2,3,1,5} Output-> 3
+
+def main(input1, input2):
+    n = input1
+    A = input2
+    count = 1
+    max_count = 1
+    for i in range(0,n-1):
+        if A[i+1] > A[i]:
+            count += 1
+            if max_count < count:
+                max_count = count
+        else:
+            count = 1
+    return max_count
+
