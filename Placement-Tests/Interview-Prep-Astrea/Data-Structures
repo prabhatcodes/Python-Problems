@@ -1,0 +1,20 @@
+What is a Data Structure?
+
+A data structure is simply a way of organising the data in such a way
+that it can be used efficiently.
+
+Way of defining, Storing and Retrieving of data in a structural &
+systematic way.
+
+Each data structure provides a particular way of organising data so
+it can be accessed efficiently, depending on our use case.
+We build our programs around these fundamental constructs(DS).
+
+Different kinds of Data Structures are suited to different kinds of
+applications, and some are highly specialised for specific tasks.
+eg. Binary Trees -> Implementation of Databases
+    Hashtables -> Used in Compiler implementations to look up
+                   identifiers.
+
+
+
