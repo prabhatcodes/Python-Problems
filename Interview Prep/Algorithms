@@ -1,0 +1,25 @@
+Recursion:
+    Recursion is similar to repetition.
+    The process in which a function calls itself directly or
+    indirectly is called as recursion and such a function is
+    known as a recursive function.
+
+    How is a problem solved through recursion?
+
+        The idea is to represent the problem in terms of one or more
+        smaller problems, and add one or more base conditions to
+        stop that recursion.
+        eg. In case of FACTORIAL
+            We know that factorial of n = n * factorial of n-1
+            so the base case will be when n==0.
+            we return when n=0.
+
+        Wrong Base case:
+            If a wrong base case is used, it may cause the program to
+            run indefinitely and thus stack overflow error will be
+            called.
+
+     Indirect vs Direct Recursion:
+
+        Direct: Function Calls itself
+        Indirect:

@@ -18,3 +18,112 @@ eg. Binary Trees -> Implementation of Databases
 
 
 
+Linear:
+    A data structure is said to be linear if its elements form a
+    sequence or a linear list.
+    Eg. Array, Linked List, Stacks and Queues.
+
+Non Linear:
+    A data structure is said to be non-linear if the traversal of
+    nodes is non-linear in nature.
+    Eg. Graphs and Trees.
+
+What are the various operations that can be performed on different
+data structures?
+
+Insertion:
+    Add new data item in the given collection of data items.
+
+Deletion:
+    Delete an existing data item from the given collection of data
+    items.
+
+Traversal:
+    Accessing each data item exactly once so that it can be processed
+
+Searching:
+    Find out the location of the data item if it exists in the given
+    collection of data.
+
+Sorting:
+    Arranging the data items in some order i.e. in ascending or
+    descending order in case of numerical data and in dictionary
+    order in case of alphanumeric data.
+
+How is Array different from Linked List?
+
+    - The size of array is fixed, Linked lists are dynamic in nature
+    - Inserting and deleting of a new element in an array of elements
+    is expensive, whereas both insertion and deletion can easily be
+    done in Linked Lists.
+    - Random Access is not allowed in Linked List.
+    - Extra memory space for a pointer is required with each element
+    of the Linked List.
+    - Arrays have better cache locality that can make a pretty big
+    difference in performance.
+
+Stacks:
+    Last in First Out
+        Push - inserts element at the end
+        Pop - deletes element from the end
+        Peek - returns the last element of the stack//
+        isempty
+        isfull
+
+    Applications
+        Infix to Postfix Conversion using Stack
+        Evaluation of Postfix Expression
+        Reverse a String using Stack
+        Implement two stacks in an array
+        Check for balanced parentheses in an expression
+
+Queues:
+    First in First out
+        Enqueue - inserts element at the end
+        Dequeue - removes element from the front//
+        Front - returns the first element
+        Rear
+        isempty
+        isfull
+
+Infix: X+Y (A*(B+C)/D)
+       Operators are written in-between their operands.
+       Usual way we write expressions.
+Postfix: XY+ (ABC+*D/)
+         Operators are written after their operands.
+Prefix: +XY (/*A+BCD)
+        Operators are written before their operands.
+
+Linked Lists:
+       A linked list is a linear data structure(like arrays) where
+       each element is a separate object. Each element (that is a
+       node) of a list is comprising of two items - the data and
+       a reference to the next node.
+
+       Types of a Linked List:
+       1. Strongly Linked List - In this type of linked list, every
+          node stores address or reference of next node in list
+          and the last node has next address or reference as null..
+          eg. 1->2->3->4->Null
+       2. Doubly Linked List - Here are two references associated
+          with each node, one of the reference points to the next
+          node and one to the previous node.
+          eg. Null<-1<->2<->3<->4->Null
+       3. Circular Linked List - Here all nodes are connected to
+          form a circle. There is no NULL at the end. A circular
+          linked list can be a singly circular linked list or
+          doubly linked list.
+          eg. 1->2->3->1
+          The next pointer of the last node points to first element
+
+Which data structures are used for BFS and DFS of a graph?
+
+    - Queue is used for Breadth First Search
+    - Stack is used for Depth First Search
+      DFS can also be implemented using recursion(used function
+      call stack).
+
+Doubly linked list can be implemented using a single pointer
+variable in every node. (XOR Linked list)
+
+How to implement stack using Queue?

@@ -1,4 +1,13 @@
-Data Structures
+SQL injection:
+    1. Code injection technique which might destroy the database
+    2. One of the most common web hacking techniques
+    3. is the placement of malicious code in SQL statements
+       using web page input
 
-DS is a way of defining, storing & retrieving of data in a structural
-& systematic way.
+    It can be used to retrieve hidden data, where we can modify an
+    SQL query to return additional results.
+    Subverting application logic, where you can change a query to
+    interfere with the application's logic.
+
+    UNION attacks, where you can retrieve data from different
+    database tables.
